@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHH</title>
+<!--     <link rel="stylesheet" href="./css/libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/libs/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap-grid.min.css" integrity="sha512-LLxZHu50SXdFJdAzHmDJAoLaozhTB4BYZPoN+xdTRjiPmPhI+1mEJXdoHHiDWmd/jj/9x10pkd8mYGG9sqfPPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap-reboot.min.css" integrity="sha512-3qb5bclFXm56+XgqPRuD93Wxs84ZiFvfS0/yOxd66bMCw9jmW8ajv8F6fQPC968CV3sx0uWGjz3HHcXv6oWKMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="app">
+        <!-- NAVBAR -->
+        <div class="container-fulid navbar-wrapper">
+            <ul class="nav flex-row align-i-center">
+                <li class="nav__item nav__header">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text text-primary">NHH</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#intro" class="nav__link">
+                        <span class="nav__text">intro</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#audio" class="nav__link">
+                        <span class="nav__text">Music</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#note" class="nav__link">
+                        <span class="nav__text">Note</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">careers</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">blog</span>
+                    </a>
+                </li>
+                <li class="nav__item nav__contact">
+                    <a href="#" class="nav__link">
+                        <button class="btn btn-primary-1">
+                            <span class="material-icons icon-chat">
+                                chat_bubble
+                            </span>
+                            <span class="nav__text"> 
+                                let's talk
+                            </span>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- SLIDERS -->
+        <div class="container-fulid slider-wrapper flex-row align-i-center align-c-center">
+            <div class="container slider">
+                <div class="row">
+                    <div class="col-1">
+                        <div class="slider__heading-border"></div>
+                    </div>
+                    <div class="col-10">
+                        <div class="slider__heading-content">
+                            <span class="slider__sologon">Success is something you attract by the person you become.</span>
+                            <p class="slider__heading-text">I am
+                                <span class="slider__heading-primary">Nguyen Huy Hoang</span><br>
+                                I will try to the end.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="animate">
+                <img src="./img/animate/pterodactyl.png" alt="" class="animate-move--3 animate-move">
+                <img src="./img/animate/pterodactyl.png" alt="" class="animate-move--4 animate-move">
+            </span>
+            <span class="animate">
+                <img src="./img/animate/cha.png" alt="" class="animate-move--2 animate-move">
+            </span>
+            <span class="animate">
+                <img src="./img/animate/long1.png" alt="" class="animate-move--1 animate-move">
+            </span>
+        </div>
+        <!-- CONTENT -->
+        <div class="container-fulid content-wrapper">
+            <!-- intro -->
+            <div id="intro" class="intro container-fulid">
+                <div class="container ">
+                    <div class="row g-0 intro-wrapper">
+                        <div class="col-xl-4 d-none d-xl-block o-hidden">
+                            <div class="intro__item-left flex-row justify-c-center">
+                                <img src="./img/intro/claws-cutout-left.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-l-12">
+                            <div class="intro__item flex-col justify-c-center align-i-center px-8">
+                                <p class="intro__desc">Your Partner In</p>
+                                <p class="intro__heading">NHH</p>
+                                <p class="intro__content">Ready to dominate in today's digital age with the top Orlando digital marketing agency? Our Website and Marketing Partnership helps establish a foundation for your business to improve brand awareness, drive website traffic, generate leads and close more customers. We're passionate about helping our clients climb to the top of the marketing food chain.</p>
+                                <a href="#">
+                                    <button class="intro__btn btn-primary-2">SCHEDULE YOUR CONSULTATION</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 d-none d-xl-block o-hidden">
+                            <div class="intro__item-right flex-row justify-c-center">
+                                <img src="./img/intro/claws-cutout-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- audio -->
+            <div id="audio" class="audio container-fulid">
+                
+                <div class="container">
+                    <div class="row audio-dashboard">
+                        <div class="col-lg-3">
+                            <img class="audio-dashboard__img" src="./img/audio/id_0.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 ox-hidden">
+                            <h4 class="audio-dashboard__title">Vầng Trăng Khóc</h4>
+                            <span class="audio-dashboard__desc">
+                                <i class="audio-dashboard__author">Hnhngan</i>
+                                <span class="audio-dashboard__duration">3:15</span>
+                            </span>
+                            <div class="audio-dashboard__interactive flex-row">
+                                <span id="btn-back" class="material-icons-round audio-dashboard__interactive-change">
+                                    skip_previous
+                                </span>
+                                <span id="btn-play" class="material-icons-round audio-dashboard__interactive-playing active">
+                                    play_circle
+                                </span>
+                                <span id="btn-pause" class="material-icons-round audio-dashboard__interactive-playing">
+                                    pause_circle_filled
+                                </span>
+                                <span id="btn-next" class="material-icons-round audio-dashboard__interactive-change">
+                                    skip_next
+                                </span>
+                                <span id="btn-random" class="material-icons-round audio-dashboard__interactive-musicnext active">
+                                    shuffle
+                                </span>
+                                <span id="btn-replay" class="material-icons-round audio-dashboard__interactive-musicnext">
+                                    replay
+                                </span>
+                                <span id="btn-musicnext" class="material-icons-round audio-dashboard__interactive-musicnext">
+                                    fast_forward
+                                </span>
+                            </div>
+                            <input class="audio-dashboard__progress-bar" type="range" value="0" step="1" min="0" max="100">
+                        </div>
+                    </div>
+                    <div class="animate-move animate-move--5">
+                        <img src="./img/animate/little-zilla-head.png" alt="">
+                    </div>
+                    <div class="animate-move animate-move--6">
+                        <img src="./img/animate/little-zilla-head.png" alt="">
+                    </div>
+                    <div class="row audio-list">
+                        <div class="col-lg-9">
+                            <table class="audio__table">
+                                <tr class="table__header">
+                                    <th>track</th>
+                                    <th>artist</th>
+                                    <th>time</th>
+                                </tr>
+                                <tr class="table__item active"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                                <tr class="table__item"> 
+                                    <td class="table__track"><img src="./img/audio/id_0.jpg" alt=""> Vầng Trăng Khóc</td>
+                                    <td>Hnhngan</td>
+                                    <td>3:05</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- note -->
+            <div id="note" class="container-fluid note">
+                <div class="note-wrapper container">
+                    <div class="note__menu-add">
+                        <span class="material-icons-round">
+                            add_circle
+                        </span>
+                        <ul class="note__add-list">
+                            <li class="note__add-item c1">
+                                <div></div>
+                            </li>
+                            <li class="note__add-item c2">
+                                <div></div>
+                            </li>
+                            <li class="note__add-item c3">
+                                <div></div>
+                            </li>
+                            <li class="note__add-item c4">
+                                <div></div>
+                            </li>
+                            <li class="note__add-item c5">
+                                <div></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <h3 class="note__header">Notes</h3>
+                            </div>
+                            <div class="row note__list">
+                                <div class="col-lg-4 note__item-warpper">
+                                    <!-- when add class "full" display btn edit and btn favorite, when add class edit display edit, when add class favorite display favorite -->
+                                    <div class="note__item flex-col full favorite">
+                                        <div class="note__content">
+                                            <span class="note__content-view">nguyen huy hoang</span>
+                                            <textarea class="note__content-edit"></textarea>
+                                        </div>
+                                        <div class="note__footer">
+                                            <span class="note__date">May 21 2020</span>
+                                            <span class="note__btn-edit">
+                                                <span class="material-icons-round">edit</span>
+                                            </span>
+                                        </div>
+                                        <span class="note__favorite">
+                                            <span class="material-icons-round">
+                                                star
+                                            </span>
+                                        </span>
+                                        <span class="material-icons-round note__remove">
+                                            delete
+                                        </span>
+                                    </div>
+                                </div><div class="col-lg-4 note__item-warpper">
+                                    <!-- when add class "full" display btn edit and btn favorite, when add class edit display edit, when add class favorite display favorite -->
+                                    <div class="note__item flex-col full favorite">
+                                        <div class="note__content">
+                                            <span class="note__content-view">nguyen huy hoang</span>
+                                            <textarea class="note__content-edit"></textarea>
+                                        </div>
+                                        <div class="note__footer">
+                                            <span class="note__date">May 21 2020</span>
+                                            <span class="note__btn-edit">
+                                                <span class="material-icons-round">edit</span>
+                                            </span>
+                                        </div>
+                                        <span class="note__favorite">
+                                            <span class="material-icons-round">
+                                                star
+                                            </span>
+                                        </span>
+                                        <span class="material-icons-round note__remove">
+                                            delete
+                                        </span>
+                                    </div>
+                                </div><div class="col-lg-4 note__item-warpper">
+                                    <!-- when add class "full" display btn edit and btn favorite, when add class edit display edit, when add class favorite display favorite -->
+                                    <div class="note__item flex-col full favorite">
+                                        <div class="note__content">
+                                            <span class="note__content-view">nguyen huy hoang</span>
+                                            <textarea class="note__content-edit"></textarea>
+                                        </div>
+                                        <div class="note__footer">
+                                            <span class="note__date">May 21 2020</span>
+                                            <span class="note__btn-edit">
+                                                <span class="material-icons-round">edit</span>
+                                            </span>
+                                        </div>
+                                        <span class="note__favorite">
+                                            <span class="material-icons-round">
+                                                star
+                                            </span>
+                                        </span>
+                                        <span class="material-icons-round note__remove">
+                                            delete
+                                        </span>
+                                    </div>
+                                </div><div class="col-lg-4 note__item-warpper">
+                                    <!-- when add class "full" display btn edit and btn favorite, when add class edit display edit, when add class favorite display favorite -->
+                                    <div class="note__item flex-col full favorite">
+                                        <div class="note__content">
+                                            <span class="note__content-view">nguyen huy hoang</span>
+                                            <textarea class="note__content-edit"></textarea>
+                                        </div>
+                                        <div class="note__footer">
+                                            <span class="note__date">May 21 2020</span>
+                                            <span class="note__btn-edit">
+                                                <span class="material-icons-round">edit</span>
+                                            </span>
+                                        </div>
+                                        <span class="note__favorite">
+                                            <span class="material-icons-round">
+                                                star
+                                            </span>
+                                        </span>
+                                        <span class="material-icons-round note__remove">
+                                            delete
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- FOOTERS -->
+         <div class="container-fulid footer-warpper">
+             <div class="row footer">
+                 <div>
+                     <a class="footer__header" href="#">
+                         NHH
+                     </a>
+                 </div>
+                 <div class="footer__linked">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fas fa-phone"></i></a>
+                     <a href="#"><i class="fas fa-envelope"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                 </div>
+             </div>
+             <img src="../assets/img/animate/bọ cạp.png" alt=""class="animate-move animate-move--7">
+             <img src="../assets/img/animate/nhện.png" alt="" class="animate-move animate-move--8">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--9">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--10">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--11">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--12">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--13">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--14">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--15">
+             <img src="../assets/img/animate/kiến.png" alt="" class="animate-move animate-move--16">
+         </div>
+    </div> 
+</body>
+</html>
